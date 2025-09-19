@@ -139,7 +139,7 @@ def build_parser() -> argparse.Namespace:
     p.add_argument("--r1", choices=["on", "off"], help="Set Relay 1 state")
     p.add_argument("--r2", choices=["on", "off"], help="Set Relay 2 state")
 
-    # Behavior
+    # Behaviour
     p.add_argument("--read-first", action="store_true", help="Read current, then only modify specified relays")
     p.add_argument("--read-back", action="store_true", help="Read after write to confirm")
 
